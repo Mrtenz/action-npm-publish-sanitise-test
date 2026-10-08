@@ -148,9 +148,6 @@ module.exports = defineConfig({
         // All non-root packages must have the same "build:docs" script.
         expectWorkspaceField(workspace, 'scripts.build:docs', 'typedoc');
 
-        // No non-root packages may have a "prepack" script.
-        workspace.unset('scripts.prepack');
-
         // All non-root package must have valid "changelog:update" and
         // "changelog:validate" scripts.
         expectCorrectWorkspaceChangelogScripts(workspace);
