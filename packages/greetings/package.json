@@ -1,6 +1,6 @@
 {
   "name": "@metamask/greetings",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Example package containing greeting-based utilities",
   "keywords": [
     "Ethereum",
@@ -43,10 +43,7 @@
     "test": "vitest",
     "test:clean": "vitest --clearCache",
     "test:verbose": "vitest --reporter=verbose",
-    "test:watch": "vitest --watch",
-    "prepack": "echo CANARY-PREPACK-RAN >&2",
-    "postpack": "echo CANARY-POSTPACK-RAN >&2",
-    "prepublish": "echo CANARY-PREPUBLISH-RAN >&2"
+    "test:watch": "vitest --watch"
   },
   "devDependencies": {
     "@metamask/auto-changelog": "^6.1.0",
