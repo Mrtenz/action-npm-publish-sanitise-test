@@ -1,0 +1,32 @@
+name: Sanitise test
+
+on:
+  push:
+    branches: [sanitise-test]
+
+permissions:
+  contents: read
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      - name: Enable Corepack
+        run: corepack enable
+      - name: Install and build
+        run: |
+          yarn install --immutable
+          yarn build
+      - name: Dry run publish
+        uses: MetaMask/action-npm-publish@mrtenz/sanitise-yarn-config
+        with:
+          dry-run: true
+      - name: Show sanitised manifest
+        if: always()
+        run: jq .scripts packages/greetings/package.json
