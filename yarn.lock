@@ -825,7 +825,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/greetings@npm:^0.0.0, @metamask/greetings@workspace:packages/greetings":
+"@metamask/greetings@npm:^0.1.0, @metamask/greetings@workspace:packages/greetings":
   version: 0.0.0-use.local
   resolution: "@metamask/greetings@workspace:packages/greetings"
   dependencies:
@@ -844,7 +844,7 @@ __metadata:
   resolution: "@metamask/letter-crafter@workspace:packages/letter-crafter"
   dependencies:
     "@metamask/auto-changelog": "npm:^6.1.0"
-    "@metamask/greetings": "npm:^0.0.0"
+    "@metamask/greetings": "npm:^0.1.0"
     "@metamask/signatures": "npm:^0.0.0"
     "@typescript/native": "npm:typescript@^7.0.2"
     "@vitest/coverage-istanbul": "npm:^4.1.11"

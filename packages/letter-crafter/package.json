@@ -1,6 +1,6 @@
 {
   "name": "@metamask/letter-crafter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Example package to craft a letter",
   "keywords": [
     "Ethereum",
@@ -49,7 +49,7 @@
     "test:watch": "vitest --watch"
   },
   "dependencies": {
-    "@metamask/greetings": "^0.0.0",
+    "@metamask/greetings": "^0.1.0",
     "@metamask/signatures": "^0.0.0"
   },
   "devDependencies": {

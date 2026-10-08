@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0]
+
 ### Uncategorized
 
 - Fix lint
@@ -22,4 +24,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - chore: upgrade dev toolchain ([#13](https://github.com/MetaMask/metamask-monorepo-template/pull/13))
 - Create initial version of the monorepo template ([#2](https://github.com/MetaMask/metamask-monorepo-template/pull/2))
 
-[Unreleased]: https://github.com/MetaMask/metamask-monorepo-template/
+[Unreleased]: https://github.com/MetaMask/metamask-monorepo-template/compare/@metamask/letter-crafter@0.1.0...HEAD
+[0.1.0]: https://github.com/MetaMask/metamask-monorepo-template/releases/tag/@metamask/letter-crafter@0.1.0
