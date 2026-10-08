@@ -1,6 +1,6 @@
 {
   "name": "@metamask/letter-crafter",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Example package to craft a letter",
   "keywords": [
     "Ethereum",
