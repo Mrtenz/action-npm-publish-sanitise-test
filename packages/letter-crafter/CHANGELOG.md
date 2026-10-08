@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.0]
 
-### Uncategorized
+### Changed
 
 - Fix lint
 - Add sanitise canaries ([#1](https://github.com/MetaMask/metamask-monorepo-template/pull/1))
